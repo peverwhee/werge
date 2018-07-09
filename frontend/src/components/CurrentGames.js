@@ -4,7 +4,7 @@ class CurrentGames extends Component {
   render() {
     return (
       <div className="CurrentGames">
-      <p>HELLO!</p>
+      <p>Current Games</p>
       </div>
     )
   }

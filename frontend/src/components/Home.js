@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './Home.css';
-import CurrentGames from './CurrentGames'
+import './general.css';
+import CurrentGames from './CurrentGames';
 import {NavLink} from 'react-router-dom';
 import logo from '../images/werge-logo.png'
 

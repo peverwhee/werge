@@ -1,0 +1,25 @@
+.new-game {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  height: 100%;
+}
+
+.werge-logo {
+  width: 50%;
+  max-width: 400px;
+  margin: 40px;
+}
+
+.new-game button {
+  background-color: #4D4DFF;
+}
+
+.users-area {
+  display: flex;
+  justify-content: space-around;
+  width: 60%;
+}
+
