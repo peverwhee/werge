@@ -1,0 +1,16 @@
+.game {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  height: 100%;
+}
+
+.werge-logo {
+  width: 50%;
+  max-width: 400px;
+  margin: 40px;
+}
+
+
