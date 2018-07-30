@@ -14,17 +14,21 @@ class NewGame extends Component {
     });
     this.handleClickUser = this.handleClickUser.bind(this);
   }
-  componentWillMount() {
+  componentDidMount() {
     this.setState({
       users:[
         new User(0, "tambchop"),
         new User(1, "peverwhee")]
     })
+    localStorage.setItem("myUserId", 1);
   }
   handleClickUser(userid) {
     this.props.history.push("/game/"+userid);
   }
   render() {
+    if(!this.state){
+      return(null);
+    }
     let usernames = [];
     for (let i =0; i<this.state.users.length; i++) {
       const user = this.state.users[i];

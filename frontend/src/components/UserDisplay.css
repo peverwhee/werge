@@ -1,0 +1,14 @@
+.profile-picture {
+  width: 100px;
+}
+
+.username-text {
+  font-family: 'Playfair Display';
+  font-size: 2rem;
+  padding: 0px 20px;
+}
+
+.user-display {
+  display: flex;
+  align-items: center;
+}

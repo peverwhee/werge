@@ -13,4 +13,9 @@
   margin: 40px;
 }
 
+.user-information {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+}
 
